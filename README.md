@@ -26,5 +26,5 @@ DESAFIOS ADICIONAIS:
 - Persista as informações de usuário guardando os dados em um arquivo .json;
 - Valide se o campo 'e-mail' é um e-mail válido e retorne 400 caso não seja;
 - Crie os seguintes campos adicionais em seu usuário criados pelo servidor:
- - createdAt -> Guarda a data em que o usuário foi CRIADO
- - updatedAt -> Guarda a data em que o usuário foi MODIFICADO
+    * createdAt -> Guarda a data em que o usuário foi CRIADO
+    * updatedAt -> Guarda a data em que o usuário foi MODIFICADO
