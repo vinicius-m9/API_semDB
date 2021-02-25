@@ -20,3 +20,11 @@ PREMISSAS:
  }
 - Gere o ID automaticamente no código (o ID não será enviado na request).
 - NÃO PODEM existir usuários com o mesmo ID ou E-mail. Caso a requisição tente criar um usuário com o e-mail já usado, retorne status 400 (Bad Request).
+
+DESAFIOS ADICIONAIS:
+
+- Persista as informações de usuário guardando os dados em um arquivo .json;
+- Valide se o campo 'e-mail' é um e-mail válido e retorne 400 caso não seja;
+- Crie os seguintes campos adicionais em seu usuário criados pelo servidor:
+ - createdAt -> Guarda a data em que o usuário foi CRIADO
+ - updatedAt -> Guarda a data em que o usuário foi MODIFICADO
